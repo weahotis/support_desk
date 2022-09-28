@@ -63,7 +63,7 @@ const loginUser = async(req, res) => {
 
 // @desc Get user
 // @route /api/users/me
-// @access private
+// @access private   
 const getMe = async(req, res)=>{
   const user = {
     id: req.user._id,
